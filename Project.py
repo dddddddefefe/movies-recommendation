@@ -1,3 +1,6 @@
+
+%pip install pandas
+
 import sys
 import pandas as pd
 import time
@@ -10,6 +13,7 @@ from scipy.sparse import csr_matrix
 from sklearn.cluster import KMeans
 from sklearn import preprocessing
 import warnings; warnings.simplefilter('ignore')
+
 
 
 """
